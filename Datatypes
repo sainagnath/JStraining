@@ -1,0 +1,72 @@
+reactive native - mobile application
+electron.js - desktop application
+react.js - web application
+ JS def 
+it is used to convert static page into dynamic page
+
+Variables in JS:-
+(type of null in js is object)
+-->set of block used to store data
+-->dynamic in nature
+eg:var a=10
+1)Case-sensitive
+2)start with letters, _,$
+3)cant start with numbers
+
+First Priority is const,next let,last var.
+-->In const reinitialization and redecraliation is not possible
+
+var a = 1;
+a=5;
+console.log(a+a);
+op-10
+
+let b = 1;
+b=5;
+console.log(b+b);
+op-10
+
+reassign possible - let,var
+
+reassign not possible - const
+
+redeclare possible - var
+
+redeclare not possible - let,const
+
+
+Data types
+1)primitive
+2)non-primitive
+primitive - predefined
+-number
+-string
+-Boolean
+-null
+-undefined
+
+
+code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let a = 1;
+        // console.log("hi +a+a");
+        // document.write('hi +a+a',"<br>");
+        // document.write(`hi +${a+a}`)
+        
+        let x = "sai";
+        let y = "kumar";
+        let age = 30;
+        let c = `I am ${x} ${y},my age is ${age} years old`;
+        document.write(c);
+        
+    </script>
+</body>
+</html>
