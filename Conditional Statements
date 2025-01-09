@@ -1,0 +1,53 @@
+Conditional Statements:
+To make the set of instructions to execute only when certain conditon is true
+
+Used to decide whether to execute the code or skip the code based on certain Conditional
+
+Block of code : set of instructions
+
+
+if : only one possible Condition
+syntax:
+if(condition){
+        //block of code
+}
+
+
+code---------
+
+
+let a = 54;
+        let b = 10;
+        // if(a<b){
+        //     document.write("a is smaller than b","<br>")
+        // }
+        // document.write("hellooo","<br>")
+
+        // if(a>b){
+        //     document.write("a is greater than b","<br>")
+        // }
+        // else{
+        //     document.write("a is smaller than b","<br>")
+        // }
+        // document.write("hellooo")
+
+        // let age = 20;
+        // if(age<18){
+        //     document.write("too young to marry","<br>");
+        // }
+        // else if(age>35){
+        //     document.write("too old to marry","<br>");
+        // }
+        // else{
+        //     document.write("perfect age to marry","<br>");
+        // }
+
+        let x = 301;
+        let y = 198;
+        let c = x+y;
+        if(x>300 || y>300 && c<500){
+            document.write("Team up","<br>");
+        }
+        else{
+            document.write("cannot teamup","<br>");
+        }
