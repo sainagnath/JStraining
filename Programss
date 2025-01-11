@@ -1,0 +1,65 @@
+// let n = prompt("Enter a number?")
+        // switch(true){
+        //     case n>0:
+        //         document.write("Positive","<br>");
+        //         break;
+        //     case n==0:
+        //         document.write("Zero","<br>");
+        //         break;
+        //     case n<0:
+        //         document.write("Negative","<br>");
+        //         break;
+        //     default:
+        //         document.write("Invalid","<br>");
+        // }
+
+        // let n = prompt("Enter a day?")
+        // switch(true){
+        //     case n=="Monday":
+        //         document.write("Weekday","<br>");
+        //         break;
+        //     case n=="Tuesday":
+        //         document.write("Weekday","<br>");
+        //         break;
+        //     case n=="Wednesday":
+        //         document.write("Weekday","<br>");
+        //         break;
+        //     case n=="Thursday":
+        //         document.write("Weekday","<br>");
+        //         break;  
+        //     case n=="Friday":
+        //         document.write("Weekday","<br>");
+        //         break; 
+        //     case n=="Saturday":
+        //         document.write("Weekend","<br>");
+        //         break;
+        //     case n=="Sunday":
+        //         document.write("Weekend","<br>");
+        //         break;             
+        //     default:
+        //         document.write("Invalid","<br>");
+        // }
+
+        // let n = prompt("Enter a number?")
+        // let tc = 0;
+
+        // for(let i = 1;i<=n;i++){
+        //     if(i<=50){
+        //         tc=tc+2;
+        //     }
+        //     if(i>50 && i<=150){
+        //         tc=tc+3;
+        //     }
+        //     if(i>150 && i<=250){
+        //         tc=tc+5;
+        //     }
+        //     if(i>250){
+        //         tc=tc+8;
+        //     }
+        // }
+        // let c = tc * 0.2;
+        // document.write(tc+c);
+
+        let n = prompt("Enter a number?");
+        let x = n*(n-1)/2;
+        document.write(x);
