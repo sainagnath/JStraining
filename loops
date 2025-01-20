@@ -1,0 +1,18 @@
+// for(let i = 0;i<7;i+=2){
+        //     document.write(i+2,"<br>");
+        // }
+        for(let i = 10;i<16;i++){
+            document.write(i,"<br>");
+        }
+        document.write("---------------","<br>");
+        for(let i = 1;i<6;i++){
+            document.write("saiii","<br>");
+        }
+        document.write("---------------","<br>");
+        for(let i = 1;i<11;i++){
+            document.write(i*i,"<br>");
+        }
+        document.write("---------------","<br>");
+        for(let i = 1;i<11;i++){
+            document.write(`9 x ${i} = ${9*i}`,"<br>");
+        }
