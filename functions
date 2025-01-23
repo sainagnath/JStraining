@@ -1,0 +1,39 @@
+function :
+can reuse code without writing again
+
+js:
+key word = function()
+parameters = values(variables) which are declared inside the () while defining a function
+argument values to pass in function
+
+
+
+
+
+
+
+
+
+
+function greet(){
+            console.log("Hello");
+        }
+        console.log("hiiii");
+        greet();
+        console.log("huiii");
+        greet();
+        
+
+        function add(a,b){
+            document.write(a+b);
+        }
+        let a = parseInt(prompt("Enter a : "));
+        let b = parseInt(prompt("Enter b : "));
+        // let b = prompt("Enter b : ");
+        add(a,b);
+
+        sum = function(a,b){
+            let c = a+b;
+            return c;
+        }
+        document.write(sum(8,9))
