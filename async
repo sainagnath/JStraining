@@ -1,0 +1,28 @@
+Arrow functions
+--es6 version
+--more readable and more structure
+--annonymous function 
+--without function name but they are assigned to a variable
+
+let c=()=>{
+            document.write("hiii");
+            
+        }
+        // c()
+        let x=(a,b)=>{
+            document.write(a+b);
+        }
+        // x(10,20);
+
+        // let age = 18;
+        // let welcome=(age<18)?()=>document.write("abc"):document.write("def");
+        // welcome();
+
+        async function hello () {
+            console.log("i am sainath");
+            setTimeout(()=>{
+                console.log("i am waiting");
+            },2000)
+            console.log("i am navaneeth");
+        }
+        hello();
