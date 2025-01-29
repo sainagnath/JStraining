@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="a">I am sai</h1>
+    <h1 id="b">I am sam</h1>
+    <h1 id="c">I am ravi</h1> -->
+
+
+    <!-- <h1 id="a" class="a">Iam sai</h1>
+    <h1 id="b" class="b">I am sam</h1>
+    <h1 id="c" class="a">I am ravi</h1>
+    <h1 class="b">I am kavya</h1> -->
+
+    <h1 id="a" class="a">Iam sai</h1>
+    <h2 id="b" class="b">I am sam</h1>
+    <h1 id="c" class="a">I am ravi</h1>
+    <h2 class="b">I am kavya</h1>
+    <script>
+        //let x=document.getElementById("a")
+        //console.log(x)
+
+        //let x=document.getElementsByClassName("a")
+        //console.log(x);
+
+        let x=document.getElementsByTagName("h1")
+        console.log(x);
+        //for(let i=0;i<x.length;i++){
+        //    console.log(x[i])
+        //}
+    </script>
+</body>
+</html>
+
+
+
+let a = document.querySelectorAll(".a");
+
+for(let i of a){
+    i.addEventListener("mouseover",function(){
+        i.innerHTML="Saiii";
+    })
+}
