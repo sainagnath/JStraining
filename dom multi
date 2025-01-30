@@ -1,0 +1,80 @@
+append() -To append a new element to parent node*/
+
+        let n=document.createElement("h2")
+        n.textContent="Saicharan is the Team Lead"
+        //get the parent element
+        let p=document.getElementById("b")
+        //append the new element to parent element
+        p.appendChild(n)
+        //log the inner text of the parent
+        console.log(p.innerText)
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Removing Child Node</h1>
+    <h2>I am John</h2>
+    <ul>
+        <li>Sainath</li>
+        <li>Sai charan</li>
+        <li>Kishore</li>
+    </ul> -->
+
+    <div id="a">
+        <h1>Ramya</h1>
+        <h1>Pavani</h1>
+    </div>
+    <div id="b">
+        <h1>Pavan</h1>
+        <h1>Kowshik</h1>
+    </div>
+    <script>
+
+        //const s=["harini","suresh","rohini"]
+        //for(i=0;i<s.length;i++){
+        //    let s1=document.createElement('h2')
+        //    s1.className="ss"
+        //    s1.textContent=s[i]
+        //    //console.log(s[i]);
+        //    console.log(s1)
+        //}
+
+        //let title;
+        //for(let i=0;i<3;i++){
+        //    title=document.createElement('h2')
+        //    title.className="tt"
+        //    title.textContent=i;
+        //    console.log(title)
+        //}
+
+        /*Removing a child element from a parent node*/
+
+        //const ul=document.querySelector('ul')
+        //const lists=document.querySelectorAll('li')
+        //for(const list of lists){
+        //    console.log(`Removing: ${list.textContent}`)
+        //    ul.removeChild(list)
+        //    console.log(list)
+        //}
+
+        /*TO APPEND A NEW ELEMENT
+        append() -To append a new element to parent node*/
+
+        let n=document.createElement("h2")
+        n.textContent="Saicharan"
+        //get the parent element
+        let p=document.getElementById("b")
+        console.log(p.innerText)
+        //append the new element to parent element
+        p.appendChild(n)
+        //log the inner text of the parent
+        console.log(p)
+        console.log(p.innerText)
+    </script>
+</body>
+</html>
