@@ -1,0 +1,31 @@
+<div id="a">
+            <h1 id="r">Ravi</h1>
+            <h1 id="s">Ram</h1>
+        </div>
+        <div id="b">
+            <h2>sam</h2>
+            <h2>venkat</h2>
+        </div>
+
+
+let n = document.createElement("h1");
+n.innerText="sai"
+
+let p = document.getElementById("a")
+let l = document.getElementById("r");
+p.insertBefore(n,l)
+console.log(p);
+
+let z = document.createElement("h1");
+z.textContent="Navvvv"
+
+// let x = document.getElementById("a")
+let y = document.getElementById("s");
+p.insertBefore(z,y)
+console.log(p);
+
+let f = document.getElementById("b");
+f.remove()
+
+let w = getElementById("r");
+p.removeChild(w);
