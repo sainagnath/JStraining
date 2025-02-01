@@ -1,0 +1,42 @@
+// let age = parseInt(prompt("Enter a number: "));
+// let citizen = prompt("Enter citizen: ");
+// let ctest = prompt("Enter ctest result: ");
+// if(age>=18 && (citizen == "Indian" || ctest=="Passed")){
+//     document.write("Eligible to vote");
+// }
+// else{
+//     document.write("Not Eligible to vote");
+// }
+
+
+let bill = 100;
+let newbill;
+let premium = "yes";
+if (bill>100 && premium == "not yes"){
+    newbill = bill - (bill*0.2) 
+}
+else if(bill>50 && bill<=100 && premium == "not yes"){
+    newbill = bill - (bill*0.1)
+}
+else if(bill>50 && bill<=100 && premium == "yes"){
+    newbill = bill - (bill*0.15);
+}
+else if( bill>100 && premium=="yes"){
+    newbill = bill - (bill*0.25)
+}
+
+document.write(newbill,"<br>");
+
+document.write("------------------","<br>")
+
+let vip = "yesd";
+let age = 2;
+if(vip == "yes" && age>18){
+    document.write("Can attend all events");
+}
+else if(vip != "yes" && age>18){
+    document.write("Can attend special events");
+}
+else{
+    document.write("Cannot attend any events");
+}
