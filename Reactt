@@ -1,0 +1,54 @@
+import React from "react";
+import './App.css';
+import Welcome from "./Welcome";
+
+// const Welcome=()=><h1 className="message">Hellooo</h1>
+function App(){
+  return (
+    <div class="a">
+      
+    <Welcome name="Saiii" greeting="Hellooo"></Welcome>
+    </div>
+  )
+}
+
+export default App;
+
+
+
+import React from "react";
+
+const Welcome=(props)=>{
+    const{name,greeting}=props;
+    return(
+        <h1 className="message">{greeting},{name}</h1>
+    )
+}
+
+export default Welcome;
+
+
+
+.a {
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  color: #c6bebe;
+  background-color: #010101;
+  width: 35%;
+  margin-left: 32%;
+}
+
+
+
+
+Index.html:
+The main HTML file that serves as the entry point for the app
+SRC---Index.js: The JavaScript entry point where the DOM is rendered
+SRC---App.js: The main component that serves as the root of the component tree 
+SRC = We create components which we require
+
+
+Components are the core building blocks of the react application
+They help to create reusable block of code
+IF anything goes wrong in the UI , It is very easy to find and solve it.
